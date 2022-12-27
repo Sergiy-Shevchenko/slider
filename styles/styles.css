@@ -1,0 +1,89 @@
+/*.reviews {
+  @media screen and (min-width: 320px) {
+    background-image: url(/src/images/reviews/fone_mob@1х.jpg);
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(/src/images/reviews/fone_tab@1х.jpg);
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url(/src/images/reviews/fone_desc@1x.jpg);
+  }
+}*/
+
+/*.swiper-wrapper {
+  min-width: 0;
+}*/
+
+.swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #34a43d;
+}
+.swiper-slide {
+  max-width: 1200px;
+  /*@media screen and (max-width: 767px) {
+    max-width: 320px;
+    @media screen and (max-width: 768px) {
+      max-width: 768px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }*/
+}
+
+.swiper__img {
+  text-align: center;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper__content {
+  margin-top: 32px;
+}
+
+.swiper__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 255%;
+  text-align: center;
+  color: #ffffff;
+  background: #34a43d;
+  border-radius: 10px;
+  padding: 43px 109px;
+  margin-bottom: 32px;
+
+  /* @media screen and (min-width: 320px) {
+    padding: 35px 39px;
+  }
+  @media screen and (min-width: 768px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    padding: 28px 80px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    padding: 43px 109px;
+  }*/
+}
+
+.swiper__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 186%;
+  text-align: center;
+  color: var(--text-color);
+  @media screen and (min-width: 768) {
+    font-size: 16px;
+  }
+}
